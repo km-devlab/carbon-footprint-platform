@@ -1,0 +1,9 @@
+# Ignore the Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Ignore local caching layers
+__pycache__/
+*.pyc
+.pytest_cache/

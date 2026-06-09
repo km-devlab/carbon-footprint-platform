@@ -61,3 +61,4 @@ async def process_carbon_footprint(payload: FootprintCalculationRequest):
     diet_type=payload.diet_type
 )
     return result
+
