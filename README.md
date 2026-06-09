@@ -2,8 +2,8 @@
 
 EcoPulse is an immersive, accessible, motion-designed web application and high-efficiency API engineered to help individuals understand, track, and organically reduce their environmental footprint. Built with a Solarpunk aesthetic, the platform translates raw carbon calculations into tangible ecological metrics.
 
-🌐 **Live Application:** [https://your-app.onrender.com/](https://your-app.onrender.com/)  
-📑 **Interactive API Documentation:** [https://your-app.onrender.com/docs](https://your-app.onrender.com/docs)
+*🌐 **Live Application:** https://carbon-footprint-platform-4l2n.onrender.com  
+*📑 **Interactive API Documentation:** https://carbon-footprint-platform-4l2n.onrender.com/docs)
 
 ---
 
