@@ -1,9 +1,21 @@
-# Ignore the Python virtual environment
+# Python virtual environment
 venv/
 .venv/
 ENV/
 
-# Ignore local caching layers
+# Python cache
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/

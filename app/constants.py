@@ -1,13 +1,12 @@
-# Paste the emission factors code block here
-# To avoid database overhead and guarantee standard predictability, global emission factor constants are defined 
-# clearly using scientific units ($kg\text{ }CO_2e$).
-
 """
-Emission conversion factors based on IPCC / DEFRA guidelines.
-Units are represented cleanly in kg CO2e per unit of consumption.
+Emission conversion factors based on IPCC / DEFRA guidance.
+
+Units are expressed in kg CO2e per unit of consumption. Kept as static,
+in-memory constants (rather than a database) since they change rarely and
+this avoids unnecessary I/O on the calculation hot path.
 """
 
-# Transport: kg CO2e per KM
+# Transport: kg CO2e per km
 EMISSION_FACTORS_TRANSPORT = {
     "electric_vehicle": 0.05,
     "hybrid_vehicle": 0.12,
